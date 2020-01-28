@@ -118,3 +118,14 @@ then watch the test pass!
 
 Upload a single `ruby_intro.rb` file to the autograder. 
 
+
+
+
+1. Every time you start or restart your project on Cloud9, make sure to use the right version of Ruby (i.e. 2.4.0).
+
+先在environment 執行以下
+$ rvm use 2.4.0 
+$ rvmsudo gem install 'rspec:3.8.0' 'rspec-rails:3.8.0' 'rspec-rails-matchers'
+到子路徑執行rspec
+
+
